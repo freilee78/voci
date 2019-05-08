@@ -20,6 +20,10 @@ def fetchvoc():
     bunit = input("Bitte Unit erfassen")
     fobj.write("\n%s;%s;%s;%s;%s;%s" %(mlang,mgen,flang,fgen,plur,bunit))
 
+def train():
+    fobj = open("D:\snow.txt", "a")
+    
+
 opt = askopt()
 if opt == 3:
     fetchvoc()
